@@ -21,5 +21,3 @@
             - 51820:51820/udp 
           volumes:
             - ./wg0.conf:/etc/wireguard/wg0.conf:ro
-            - ./publickey:/etc/wireguard/publickey:ro
-            - ./privatekey:/etc/wireguard/privatekey:ro
